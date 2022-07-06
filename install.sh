@@ -8,4 +8,6 @@ cd $VCPKG_PATH
 
 ./bootstrap-vcpkg.sh
 
+./vcpkg integrate install
+
 sudo mv ./* /usr/local/bin
