@@ -10,6 +10,6 @@ cd $VCPKG_PATH
 
 ./vcpkg integrate install
 
-sudo cp ./* /usr/local/bin
+sudo cp -rf ./* /usr/local/bin
 
 export VCPKG_ROOT=$VCPKG_PATH
